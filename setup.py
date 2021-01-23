@@ -16,15 +16,5 @@ setuptools.setup(
     version="1.0.0",
     description="Download images from google search",
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://bitbucket.org/repo.git",
-    packages=setuptools.find_packages(),
-    author="",
-    author_email="",
-    classifiers=[
-        "Programming Language :: Python :: 3.8",
-        "License :: Proprietary and confidential",
-    ],
-    setup_requires=["pytest-runner",],
-    tests_require=["pytest", "pylint"],
+    long_description_content_type="text/markdown"
 )
